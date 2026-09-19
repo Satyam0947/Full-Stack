@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(255, 80, 80);
+}
+
+h1{
+    background-color: rgb(179, 0, 255);
+}
+
+.hello{
+    color: aqua;
+}
+
+.textcolor{
+    color: greenyellow;
+}
+
+#submitbutton{
+    background-color: mediumblue;
+}
+
+.yourname{
+    color: darkred;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: beige;
+
+}
+
+h1{
+    background-color: rgb(51, 49, 49);
+    color: rgb(194, 194, 242);
+}
+
+#card{
+    color: rgb(7, 182, 245);
+}
+
+
+p{
+    background-color: brown;
+    color: aqua;
+    border: 5px solid grey;
+    height: 200px;
+    overflow: auto;
+}
+
+#clickhere{
+    background-color: cadetblue;
+    border: 2px solid rgb(255, 30, 233);
+    border-radius: 3px;
+    color: azure;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+
+#clickhere:active{
+    background-color: greenyellow;
+    color: cadetblue;
+}
+
+#clickhere:hover{
+    background-color: rgb(252, 248, 248);
+    color: grey;
+}
+
+#card p{
+    background-color: blueviolet;
+    
+}
+
+
+
+
+
+

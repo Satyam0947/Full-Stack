@@ -1,6 +1,7 @@
 body{
     text-align: center;
     padding: 20px;
+    background-color: rgb(255, 235, 211);
     
 }
 .card{
@@ -11,9 +12,26 @@ body{
     width: 200px;
     height: 300px;
     text-align: center;
-    background-color: #a7fef4;
     margin: 50px;
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 2px 2px 20px 2px rgb(66, 66, 66);
+
     
+}
+
+h1{
+    color: rgb(11, 11, 11);
+}
+
+#M{
+    background-color: rgb(141, 251, 251);
+}
+#N{
+    background-color: rgb(254, 95, 95);
+}
+#O{
+    background-color: rgb(249, 249, 112);
+}
+#P{
+    background-color: rgb(95, 229, 95);
 }
 

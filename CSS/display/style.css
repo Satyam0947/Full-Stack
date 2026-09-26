@@ -1,0 +1,38 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+#outer{
+    border: 3px solid rgb(9, 9, 9);
+    height: 600px;
+    /* align-items: center; */
+    /* display: flex; */
+    gap: 10px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+    row-gap: 1px;
+    column-gap: 1px;
+
+
+}
+
+
+.d{
+    width: 100px;
+    height: 150px;
+    border: 2px solid red;
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px 1px grey ;
+    background-color: rgb(254, 221, 180);
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.d:hover{
+    background-color: rgb(254, 253, 251);
+}

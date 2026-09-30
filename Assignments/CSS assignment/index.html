@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="hello" id="login">
+    <div class="container">
+
+        <div class="helloo" >
         <h2>Login</h2>
-        <div>
+        <div class="inputbox">
             <label for="email"></label>
             <input type="email"
             name="email"
@@ -17,7 +19,7 @@
             placeholder="Enter your email">
         </div>
         <br>
-        <div>
+        <div class="inputbox">
             <label for="password"></label>
             <input type="password"
             name="password"
@@ -26,15 +28,16 @@
         </div>
         <br>
 
-        <div id="checkbox">
+        <div class="checkbox">
             <label for="remember">
             <input type="checkbox"
             name="remember"
             id="remember">
             <span>Remember me</span>
-
-            <a href="#">Forget password?</a>
             </label>
+            
+            <a href="#">Forget password?</a>
+            
         </div>
         <br>            
         <button id="button1">Login now</button>
@@ -43,12 +46,64 @@
             Don't have an account?
             <a href="#">Signup now</a>
         </p>
-        
-        
-    </div>
+        </div>
 
-    <div class="hello" id="registration">
+        <div class="hello" >
         <h2>Registration</h2>
+
+        <div class="inputbox">
+            <label for="name"></label>
+            <input type="name"
+            name="name"
+            id="name"
+            placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="inputbox">
+            <label for="email"></label>
+            <input type="email"
+            name="name"
+            id="email"
+            placeholder="Enter your email">
+        </div>
+        <br>
+        <div class="inputbox">
+            <label for="password"></label>
+            <input type="password"
+            name="password"
+            id="password"
+            placeholder="Create your password">
+        </div>
+        <br>
+        <div class="inputbox">
+            <label for="password"></label>
+            <input type="password"
+            name="password"
+            id="password"
+            placeholder="Confirm your password">
+        </div>
+        <br>
+        <div class="check">
+            <label for="terms"></label>
+            <input type="checkbox"
+            id="terms">
+            <span>I accept all terms & conditions</span>
+        </div>
+        <br>
+        <button id="button1">Register now</button>
+        <br>
+        <p class="bottomtext">
+            Already have an account?
+            <a href="#">Login now</a>    
+        </p>
+
+
+        </div>
+
     </div>
+    
+
+
+    
 </body>
 </html>

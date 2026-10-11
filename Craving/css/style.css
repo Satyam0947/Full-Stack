@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+}
+
+#hero{
+    position: relative;
+    #bg-img-1{
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(50%);
+    }
+
+
+    .hero-outer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+    .hero-inner{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

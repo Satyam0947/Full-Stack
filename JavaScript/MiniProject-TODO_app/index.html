@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar p-5 justify-content-center">
+            <div class="navbar-brand text-light">
+                <h1 class="fw-bold display-3 ">My TODO List</h1>
+                <h5 class="px-4">Organise your day, one tast at a time</h5>
+            </div>
+        
+        </nav>
+    </header>
+
+    <main>
+        <div class="container bg-white p-3 mt-3  shadow rounded d-flex gap-3">
+            <input type="text" 
+            class="form-control" 
+            placeholder="Enter a new task..."
+            id="taskInput">
+
+            <button class="btn btn-primary col-1 text-nowrap" onclick="addTask()">Add Task</button>
+        </div>
+
+          <section class="container p-3 border rounded shadow mt-3 d-flex gap-4">
+            <ol class="" id="taskList">
+            <!-- <li class="p-3">
+                <span>task 1</span>
+                <button class="btn btn-danger btn-sm ms-3">Delete</button>
+            </li> -->
+            </ol>
+      </section>
+
+
+
+
+    </main>
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -21,3 +21,17 @@ document.getElementById("box2").addEventListener("onmouseout" , () => {
     document.getElementById("box2").innerText = "The mouse exit from box"
 });
 
+document.getElementById("nameSubmit").addEventListener("click", () => {
+  console.log(document.getElementById("fullName").value.trim());
+});
+
+document.getElementById("fullName").addEventListener("keydown", (e) => {
+  e.key === "Enter" &&
+    console.log(document.getElementById("fullName").value.trim());
+});
+
+document.getElementById("LoginForm").addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.log("Login Done");
+});
+
